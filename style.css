@@ -4,27 +4,21 @@ body {
     padding: 0;
   }
   .logo {
-    height: 100px;
-    width: 100px;
-    /* transform: translateX(-400%) translateY(-90%);
-    position: relative;
-    float: right;
-     */
-     margin-top: -90px;
-     margin-left: 710px;
+    height: 150px;
+    width: 150px;
   }
 
   header {
     background-color: #f0f0f0;
     padding: 20px;
-    height: 300px;
+    height: 250px;
   }
   
   h1 {
     text-align: center;
-    size: auto;
+    margin-top: -1%;
+    font-size: 100px;
     color: #a07300d5;
-    font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:oblique;
   }
@@ -32,8 +26,7 @@ body {
   nav {
     display: flex;
     justify-content: space-between;
-    /* transform: translateY(-100%); */
-    float: left;
+    margin-top: -5%;
   }
   
   nav ul {
